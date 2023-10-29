@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    /* background: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.childContainer{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+img{
+    border-radius: 20px 20px 0px 0px;
+    height: 200px;
+    width: 400px;
+}
+.textBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 80%;
+    text-align: center;
+}
+.annual{
+    width: 80%;
+    height: 10%;
+    background-color: aqua;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 20px; */
+    padding-right: 20px;
+}
+.leftbox{
+    width: fit-content;
+    display: flex;
+    gap: 15px;
+    padding-left: 10px;
+}
+
+
+#payment{
+    width: 80%;
+    height: 9%;
+    background-color: brown;
+    border-radius: 10px;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+a{
+    text-decoration: none;
+    color: rgb(41, 41, 81);
+    font-weight: bold;
+}
